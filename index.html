@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - To Do List</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body class="position-relative">
+  <main id="app" class="position-absolute m-auto">
+    <div class="
+          left__side
+          d-flex
+          align-items-center
+          justify-content-between
+          flex-column
+        ">
+      <div class="task__input">
+        <input type="text" placeholder="Enter Task" id="addtaskinput" autofocus="" />
+        <input type="hidden" id="saveindex" />
+      </div>
+      <div class="task__controls">
+        <a href="#" type="button" id="addtaskbtn">
+          <img src="https://raw.githubusercontent.com/bhupenderhere/to-do-list-web-application/658cbe1ec20867d446ab3b919d52d4dbb5fa833b/images/svg/add.svg" alt="add" />
+          <span>Add Task</span>
+        </a>
+      </div>
+    </div>
+    <div class="right__side">
+      <div class="search__bar">
+        <form class="d-flex align-items-center justify-content-center">
+          <input placeholder="Search Task" id="searchtextbox" />
+        </form>
+      </div>
+      <div class="to__do__list">
+        <table id="addedtasklist"></table>
+      </div>
+    </div>
+  </main>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
